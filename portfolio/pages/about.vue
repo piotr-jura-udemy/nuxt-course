@@ -8,11 +8,7 @@
 </template>
 
 <script setup>
-// This will work in both `<script setup>` and `<script>`
-// definePageMeta({
-//   layout: "another",
-// });
-// function enableCustomLayout() {
-//   setPageLayout('another')
-// }
+useHead({
+  title: 'About'
+})
 </script>
