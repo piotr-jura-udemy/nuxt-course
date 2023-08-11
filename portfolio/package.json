@@ -13,6 +13,7 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
+    "@tailwindcss/typography": "^0.5.9",
     "@types/node": "^18.17.1",
     "nuxt": "^3.6.5"
   }
