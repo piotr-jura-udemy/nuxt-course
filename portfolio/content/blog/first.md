@@ -1,5 +1,4 @@
 ---
-title: 'Title of the page'
 description: 'meta description of the page'
 head:
   meta:
@@ -15,25 +14,31 @@ head:
       content: 'This is an OpenGraph title'
 ---
 # First post on our website
-## Introduction 
+
+## Introduction
+
 This is some text. *This is italic*.
 
 ## Second Part
+
 Something more. **This is bold**.
 
 ### Also try lists
+
 Unordered lists:
- - Do the work
- - Collect benefits
+
+- Do the work
+- Collect benefits
 
 Numbered lists:
 
  1. Pay taxes
  2. Die
- 
+
 Todo list:
- - [ ] Buy groceries
- - [ ] Pay bills
+
+- [ ] Buy groceries
+- [ ] Pay bills
 
 Tables:
 | Name | Surname |
@@ -42,7 +47,7 @@ Tables:
 
 ```html
 <html>
-	<div>Hello!</div>
+ <div>Hello!</div>
 </html>
 ```
 
