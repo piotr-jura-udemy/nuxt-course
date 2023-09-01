@@ -63,8 +63,6 @@ const posts = computed(() => {
 
   return result
 })
-
-console.log(posts)
 </script>
 
 <style scoped>

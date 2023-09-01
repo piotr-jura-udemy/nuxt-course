@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   devtools: {
     enabled: true,
-
     timeline: {
       enabled: true
     }
@@ -25,5 +24,10 @@ export default defineNuxtConfig({
   },
   colorMode: {
     classSuffix: ''
+  },
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
   }
 })
