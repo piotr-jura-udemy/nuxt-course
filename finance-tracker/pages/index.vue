@@ -23,15 +23,7 @@
       </div>
     </div>
     <div>
-      <UModal v-model="isOpen">
-        <UCard>
-          <template #header>
-            Add Transaction
-          </template>
-
-          <div>Hello!</div>
-        </UCard>
-      </UModal>
+      <TransactionModal v-model="isOpen" />
       <UButton icon="i-heroicons-plus-circle" color="white" variant="solid" label="Add" @click="isOpen = true" />
     </div>
   </section>
