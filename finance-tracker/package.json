@@ -12,6 +12,7 @@
     "@nuxt/devtools": "latest",
     "@nuxthq/ui": "^2.7.0",
     "@nuxtjs/supabase": "^1.1.0",
-    "nuxt": "^3.7.0"
+    "nuxt": "^3.7.0",
+    "zod": "^3.22.2"
   }
 }
