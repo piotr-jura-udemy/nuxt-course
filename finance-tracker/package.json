@@ -6,9 +6,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "seed": "node seed.mjs"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
     "@nuxt/devtools": "latest",
     "@nuxt/ui": "^2.8.1",
     "@nuxtjs/supabase": "^1.1.0",
