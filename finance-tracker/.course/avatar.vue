@@ -31,18 +31,6 @@ const saveAvatar = async () => {
   // 1. Get the uploaded file
   //    a) If no file uploaded, show toast error
   // 2. Generate the new filename
-  const file = fileInput.value.input.files[0]
-
-  if (!file) {
-    toastError({ title: 'Select a file to upload first' })
-    return
-  }
-
-  console.log(file)
-
-  const fileExt = file.name.split('.').pop()
-  const fileName = `${Math.random()}.${fileExt}`
-  console.log(fileName)
 
   try {
     uploading.value = true
