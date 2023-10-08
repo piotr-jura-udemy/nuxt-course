@@ -21,6 +21,7 @@
 <script setup>
 const supabase = useSupabaseClient()
 const user = useSupabaseUser()
+
 // We need to get the actual avatar URL
 const { toastSuccess, toastError } = useAppToast()
 
