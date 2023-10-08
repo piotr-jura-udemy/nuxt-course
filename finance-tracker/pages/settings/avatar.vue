@@ -62,6 +62,11 @@ const saveAvatar = async () => {
       }
     })
     // 4. (OPTIONALLY) remove the old avatar file
+    if (currentAvatarUrl) {
+      const { error } = await supabase.storage.from('avatars')
+        .remove([currentAvatarUrl])
+      if (error) throw error
+    }
 
     // 5. Reset the file input
     fileInput.value.input.value = null
