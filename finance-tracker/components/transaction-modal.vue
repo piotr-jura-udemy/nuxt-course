@@ -118,7 +118,7 @@ const initialState = {
 const state = ref(isEditing.value ? {
   type: props.transaction.type,
   amount: props.transaction.amount,
-  created_at: props.transaction.created_at,
+  created_at: props.transaction.created_at.split('T')[0],
   description: props.transaction.description,
   category: props.transaction.category
 } : { ...initialState })

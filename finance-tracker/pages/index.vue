@@ -32,7 +32,7 @@
     <div v-for="(transactionsOnDay, date) in byDate" :key="date" class="mb-10">
       <DailyTransactionSummary :date="date" :transactions="transactionsOnDay" />
       <Transaction v-for="transaction in transactionsOnDay" :key="transaction.id" :transaction="transaction"
-        @deleted="refresh()" />
+        @deleted="refresh()" @edited="refresh()" />
     </div>
   </section>
   <section v-else>
