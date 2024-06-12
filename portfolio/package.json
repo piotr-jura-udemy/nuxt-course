@@ -9,13 +9,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.7.2",
+    "@nuxt/content": "^2.12.1",
     "@nuxt/devtools": "latest",
-    "@nuxtjs/color-mode": "^3.3.0",
-    "@nuxtjs/tailwindcss": "^6.8.0",
-    "@tailwindcss/typography": "^0.5.9",
+    "@nuxtjs/color-mode": "^3.4.1",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@tailwindcss/typography": "^0.5.13",
     "@types/node": "^18.17.1",
-    "nuxt": "^3.6.5",
-    "sitemap": "^7.1.1"
+    "nuxt": "^3.12.1",
+    "sitemap": "^8.0.0"
   }
 }

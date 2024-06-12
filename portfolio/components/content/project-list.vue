@@ -23,7 +23,8 @@
 
 <script setup>
 const { error, pending, data } = await useFetch(
-  'https://api.github.com/users/piotr-jura-udemy/repos'
+  'https://api.github.com/users/piotr-jura-udemy/repos',
+  { lazy: true }
 )
 const repos = computed(
   () => data.value.filter(repo => repo.description)

@@ -2,7 +2,7 @@
   <slot :posts="posts">
     <section class="not-prose font-mono">
       <div class="column text-gray-400 text-sm">
-        <div>date</div>
+        <div className="min-w-[130px]">date</div>
         <div>title</div>
       </div>
 

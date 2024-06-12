@@ -1,5 +1,5 @@
 <template>
-  <UForm :state="state" :schema="schema" @submit.prevent="saveSettings">
+  <UForm :state="state" :schema="schema" @submit="saveSettings">
     <UFormGroup label="Transaction View" class="mb-4" help="Choose how you would like to view transactions">
       <USelect v-model="state.transactionView" :options="transactionViewOptions" />
     </UFormGroup>
