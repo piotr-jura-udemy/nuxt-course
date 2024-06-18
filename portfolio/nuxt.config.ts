@@ -4,31 +4,30 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
     timeline: {
-      enabled: true
-    }
+      enabled: true,
+    },
   },
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' }
+    pageTransition: { name: "page", mode: "out-in" },
   },
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode',
-    '@nuxt/content'
-  ],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "@nuxt/content"],
   content: {
     highlight: {
       theme: {
-        default: 'min-light',
-        dark: 'min-dark'
-      }
-    }
+        default: "min-light",
+        dark: "min-dark",
+      },
+    },
   },
   colorMode: {
-    classSuffix: ''
+    classSuffix: "",
   },
   nitro: {
     prerender: {
-      routes: ['/sitemap.xml']
-    }
-  }
-})
+      routes: ["/sitemap.xml"],
+    },
+  },
+  future: {
+    compatibilityVersion: 4,
+  },
+});
